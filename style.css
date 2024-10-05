@@ -1,0 +1,92 @@
+
+body {
+    background-image: url(zeldagif.gif);
+    background-size: cover;
+    background-position: top;
+}
+
+.titulo {
+    height: 45px;
+}
+    
+h1 {
+    color: rgb(232, 255, 198);
+}
+
+label {
+    color: white;
+}
+
+#paragrafo {
+    color: white
+}
+
+div {
+    text-align: center;
+    margin-top: 0px;    
+    height: 200px;
+    padding: 20px;
+}
+
+#tabela {
+    align-content: center;
+    margin-top: 70px;
+}
+
+input {
+    background-color: rgb(186, 236, 109);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+button {
+    background-color: white;
+    margin-top: 15px;
+}
+
+#validar {
+    background-color: white;
+}
+
+#par {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(7, 68, 7);
+}
+
+select {
+    margin-top: 3px;
+    background-color: rgb(186, 236, 109);
+    height: 18px;
+    width: 170px;
+}
+
+p {
+    color: rgb(7, 68, 7);
+    margin-top: 10px;
+}
+
+table, th, td {
+    background-color: rgb(186, 236, 109);
+    padding: 2px;
+    color: rgb(7, 68, 7);
+    border: 1px solid rgb(1, 2, 1);
+    margin: auto;
+    max-height: 10px
+  }
+
+  #tabela {
+    overflow: visible;
+    /* background-color: red; */
+    height: 50px;
+  }
+
+td {
+    height: 15px;
+
+}
+
+#divisao {
+    height: 10px;
+}
+
