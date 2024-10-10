@@ -80,9 +80,9 @@ if(personagem.hp === "") {
 }
 
 // Condicional para verificar se é um número inteiro;
-if(personagem.hp % 2 === 1 || personagem.hp % 2 === 0) {
+if(personagem.hp % 2 === 1 || personagem.hp % 2 === 0 || personagem.hp % 2 === -1 || personagem.hp % 2 === 0) {
 } else {
-  document.getElementById("par").innerHTML = "O valor de vida precisa ser um númeo inteiro!"
+  document.getElementById("par").innerHTML = "O valor de vida precisa ser um número inteiro!"
   return false;
 }
 
@@ -136,9 +136,9 @@ if(personagem.ataque === "") {
 }
 
 // Condicional para verificar se é um número inteiro;
-if(personagem.ataque % 2 === 1 || personagem.ataque % 2 === 0) {
+if(personagem.ataque % 2 === 1 || personagem.ataque % 2 === 0 || personagem.ataque % 2 === -1 || personagem.ataque % 2 === 0) {
 } else {
- document.getElementById("par").innerHTML = "O valor do ataque precisa ser um númeo inteiro!"
+ document.getElementById("par").innerHTML = "O valor do ataque precisa ser um número inteiro!"
  return false;
 }
 
@@ -220,9 +220,9 @@ if(personagem.defesa === "") {
 }
 
 // Condicional para verificar se é um número inteiro;
-if(personagem.defesa % 2 === 1 || personagem.defesa % 2 === 0) {
+if(personagem.defesa % 2 === 1 || personagem.defesa % 2 === 0 || personagem.defesa % 2 === -1 || personagem.defesa % 2 === 0) {
 } else {
- document.getElementById("par").innerHTML = "O valor do defesa precisa ser um númeo inteiro!"
+ document.getElementById("par").innerHTML = "O valor do defesa precisa ser um número inteiro!"
  return false;
 }
 
